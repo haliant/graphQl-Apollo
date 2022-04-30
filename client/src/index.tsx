@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
+import "antd/dist/antd.css";
 
 import App from "./App";
 import "./index.css";
@@ -19,4 +20,3 @@ root.render(
         </React.StrictMode>
     </ApolloProvider>
 );
-
