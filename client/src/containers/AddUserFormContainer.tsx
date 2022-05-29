@@ -22,7 +22,7 @@ export const AddUserFormContainer = () => {
             <Form form={form} onFinish={addUser} layout="horizontal">
                 <Row gutter={24}>
                     <Col flex="250px">
-                        <Form.Item name="username" label="Username">
+                        <Form.Item name="name" label="Name">
                             <Input />
                         </Form.Item>
                     </Col>

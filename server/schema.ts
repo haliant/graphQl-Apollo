@@ -3,7 +3,7 @@ import { buildSchema } from "graphql";
 const schema = buildSchema(`
 type User {
     id: ID,
-    username: String,
+    name: String,
     age:  Int,
     posts: [Post]
 }
@@ -16,7 +16,7 @@ type Post {
 
 input UserInput {
     id: ID,
-    username: String!,
+    name: String!,
     age:  Int!,
     posts: [PostInput]
 }

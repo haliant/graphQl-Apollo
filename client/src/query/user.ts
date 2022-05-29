@@ -4,7 +4,7 @@ export const GET_ALL_USERS = gql`
     query {
         getAllUsers {
             id
-            username
+            name
             age
         }
     }

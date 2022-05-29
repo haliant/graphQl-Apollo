@@ -17,8 +17,8 @@ export const UserTableContainer = () => {
             dataIndex: "id"
         },
         {
-            title: "Username",
-            dataIndex: "username"
+            title: "name",
+            dataIndex: "name"
         },
         {
             title: "Age",
